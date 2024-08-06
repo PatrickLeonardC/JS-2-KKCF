@@ -4,23 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #contactForm {
+            display: none;
+            margin-top: 20px;
+        }
+        #contactForm input, #contactForm textarea {
+            display: block;
+            margin: 10px;
+        }
+        #contactForm textarea {
+            display: block;
+            margin: 10px;
+        }
+    </style>
+ 
++
 </head>
 <body>
-    <h1 id="title">DOM Manipulation</h1>
-    <h2>Sub heading 1</h2>
-    <h2>Sub heading 2</h2>
+    <h1>Welcome to my portfolio!</h1>
+    <button id="toggleFormBtn">Contact Me</button>
 
-    <p class="description">DOM stands for Document Object Model. It gives us a way to select and manipulate html elements</p>
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        
+        <label for="Instagram">Instagram:</label>
+        <input type="Instagram" id="Instagram" name="Instagram">
+        
+        <button type="submit">Submit</button>
+    </form>
 
-    <h1 id="transform">Usagi Tsukino</h1>
-
-    <p id="text-output">foo</p>
-
-    <img src="https://c.tenor.com/4gPD1ccxrVgAAAAC/tenor.gif" />
- 
-
-
-    <!-- keep this at the bottom of the body tag -->
-    <script src="dom.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

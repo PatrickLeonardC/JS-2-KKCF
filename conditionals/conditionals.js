@@ -13,8 +13,8 @@
 
 // Less than
 10 < 3 // returns false
-5 < 5 // returns false
-4 < 5 // returns true
+5 <= 5 // returns false
+4 <= 5 // returns true
 // console.log('10 is less than 3:', 10 < 3);
 // console.log('5 is less than 5:', 5 < 5);
 // console.log('4 is less than 5:', 4 < 5);
@@ -110,8 +110,55 @@ b > 5 || c < 8; // returns true because b > 5 is true
 //     console.log("number is negative")
 // }
 
+
+
+// slide 16 assignment
 // Write a conditional statement to find the largest of three numbers
 // Make 3 variables that prompts the user for a number
+// Prompt requires using an html file 
+// Or just declare variables and assign a number value 
 // Use conditionals and comparisons to find which of the 3 is largest 
 // Console.log the result
 // Result: “x is the largest number”
+
+let number1=4
+let number2=8
+let number3=3
+
+if (number1 > number2) {
+    console.log("the first number is bigger")
+}
+else if (number1 < number2) {
+    console.log("number 1 is smaller than number 2")
+}
+
+if (number1 > number3) {
+    console.log("number 1 is bigger than number 3")
+}
+else if (number1 < number3) {
+    console.log("the first number is smaller")
+}
+// number 2
+
+if (number2 > number3) {
+    console.log("number 2 is bigger than number 3")
+}
+else if (number2 < number3) {
+    console.log("the second number is smaller")
+}
+if (number2 > number1) {
+    console.log("number 2 is bigger than number 1")
+}
+else if (number2 < number1) {
+    console.log("number 2 is smaller than number 1")
+}
+
+console.log("number 2 is the biggest")
+
+// let number1=4
+// let number2=8
+// let number3=3
+
+// if(number3 <8) {
+//     console
+// }
